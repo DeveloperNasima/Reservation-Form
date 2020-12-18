@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <div class="wrapper">
+        <div class="title">
+              Reservation Form   
+        </div>
+ <div class="form"> 
+
+         <div class="input_field">
+                   <lebel>Name*</lebel>
+                   <input type="text" placeholder="Name" class="input1" required>
+              </div>
+
+              <div class="input_field">
+                <lebel>Email*</lebel>
+                <input type="email" class="input" placeholder="Email" required>
+          </div>
+
+          <div class="input_field">
+            <lebel>Room Type</lebel>
+             <div class="custom_select1"> 
+                   <select class="s">
+                        
+                         <option value="">select</option>
+                         <option value="femele">Femele</option>
+                   </select>
+             </div>
+          </div>
+
+        <div class="input_field">
+                    <lebel>Arrival Date*</lebel>
+                   <input type="date" class="input" required>
+             </div>
+
+        <div class="input_field">
+                   <lebel>Departure Date*</lebel>
+                   <input type="date" class="input" required>
+             </div>
+
+ 
+     <div class="input_field">
+                  <lebel>Number of Guests</lebel>
+                  <Input type="number" class="input" required>
+            </div>
+
+     <div class="input_field1">
+                  <lebel>Free Pickup</lebel>
+                  <input type="radio" id="yes" name="free" value="yes">
+                  <lebel type="yes" >Yes</lebel>
+
+                  <input type="radio" id="no" name="free" value="no">
+                  <lebel type="no" >No</lebel>
+     </div>
+
+     <div class="input_field">
+                  <lebel>Flight Number</lebel>
+                  <input type="number" placeholder="Flight Number" class="input2" required>
+            </div>
+     
+        
+            <div class="input_field">
+                <lebel>Special Requests</lebel>
+                <textarea type="text" placeholder="Type Here" class="textarea"></textarea>
+          </div>
+
+    <div class="input_field">
+                 <input type="submit" value="Submit" class="btn">
+           </div>
+
+
+          </div>
+       </div>
+    </div>    
+
+
+</body>
+</html>
+
+

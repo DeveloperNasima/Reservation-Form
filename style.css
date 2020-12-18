@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+}
+
+body{
+    background-color:black;
+    padding: 0 10px;
+}
+
+.wrapper{
+    max-width: 800px;
+    width: 100%;
+    background:#fff;
+    margin: 30px auto;
+    padding: 100px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+}
+ 
+.wrapper .title{
+    font-size: 40px;
+    font-weight:700px;
+    margin-bottom: 65px;
+    color:black;
+    
+    text-align: center;
+}
+ 
+.wrapper .form{
+    width: 100%;
+    
+}
+
+.wrapper .form .input_field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .form .input_field lebel{
+    width:150px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.wrapper .form .input_field .input,
+    .wrapper .form .input_field textarea{
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.wrapper .form .input_field textarea{
+    resize: none;
+    height: 170px;
+}
+
+
+.input1{
+    
+    width:100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+.custom_select1{
+    
+    width:100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+    background-color:whitesmoke;
+
+}
+
+.s{
+    border: none;
+    background-color: whitesmoke;
+}
+.input_field1{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 15px;
+}
+
+#yes{
+    margin-left:68px;
+    background-color: violet;
+    transition: all 0.3s ease;
+}
+#no{
+    margin-left:68px;
+    padding: 8px 10px;
+    transition: all 0.3s ease;
+}
+.input2{
+    
+    width:100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+input{
+    background-color:whitesmoke;
+}
+.textarea{
+    background-color: whitesmoke;
+}
+
+.btn{
+    padding:5px;
+    border-style:  none;
+    border-radius: 5px;
+    color:white;
+    background-color: blueviolet;
+    font-size: 18px;
+    margin-left: 538px;
+}
